@@ -1,15 +1,18 @@
-.title {
-  text-align: center;
+.hero {
+  width: 100vw;
+  height: 100vh;
 }
 
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.herotext {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 2rem;
+  text-align: center; 
+  background-color: rgba(12, 11, 10, 0.596);
+  padding: 10px 20px;
 }
 
 
