@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import Welcome from "../components/welcome";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Read <Link href="/posts/first-post">this page</Link>
         </h1>
+        <Welcome />
       </footer>
     </div>
   );
